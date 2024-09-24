@@ -1,47 +1,54 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+# 🚀 Portfolio App – Customized with Magic UI
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+Welcome to my customized portfolio app! This project showcases my work, skills, and achievements in a sleek, interactive interface built using **Magic UI**. Feel free to explore the app to learn more about my journey in software development and engineering!
 
-# Features
+## 🎯 Features
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+- **Responsive Design**: The app is fully responsive, adapting seamlessly to all screen sizes and devices.
+- **Interactive Animations**: Using **Magic UI**, the app features smooth transitions and engaging animations to enhance the user experience.
+- **Customizable Sections**: Easily update project descriptions, skills, and other portfolio details through a user-friendly admin interface.
+- **Project Gallery**: A dynamic gallery where visitors can explore detailed write-ups of my key projects.
+- **Contact Form**: A simple, clean contact form allowing visitors to reach out directly from the app.
 
-# Getting Started Locally
+## 🔧 Tech Stack
 
-1. Clone this repository to your local machine:
+- **Magic UI**: For effortless UI customization and animation.
+- **Vue.js**: The core framework used for building the app.
+- **Nuxt.js**: For seamless server-side rendering and improved performance.
+- **Tailwind CSS**: For flexible styling and responsive design.
+- **JavaScript/TypeScript**: Backend logic and functionality.
 
+## 📦 Setup & Installation
+
+To get this app up and running locally, follow these steps:
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/your-username/portfolio-app
    ```
-
-2. Move to the cloned directory
-
+   
+2. Navigate to the project directory:
    ```bash
-   cd portfolio
+   cd portfolio-app
    ```
 
 3. Install dependencies:
-
    ```bash
-   pnpm install
+   npm install
    ```
 
-4. Start the local Server:
-
+4. Start the development server:
    ```bash
-   pnpm dev
+   npm run dev
    ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+5. Open your browser and visit `http://localhost:3000` to view the app.
 
-# License
+## ✨ Customization
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+This portfolio app is built to be flexible. You can easily update the content and customize the app to suit your needs:
+
+- **Update Projects**: Modify the content in the `/content/projects` folder to add or update your project descriptions.
+- **Edit Skills**: Skills can be updated through the `Skills.vue` component.
+- **Magic UI Customization**: Tailor the animations and transitions by adjusting the Magic UI settings in `magic.config.js`.
