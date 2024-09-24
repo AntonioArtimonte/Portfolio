@@ -77,6 +77,19 @@ export const DATA = {
 
   work: [
 
+    {
+      company: "None",
+      href: "None",
+      badges: [],
+      location: "None",
+      title: "None",
+      logoUrl: "/atomic.png",
+      start: "None",
+      end: "None",
+      description:
+        "None",
+    },
+
   ],
   education: [
     {
